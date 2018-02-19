@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Hongyu Liu's website</title>
+        <meta name="description" content="UTSA">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/font-awesome.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/templatemo-style.css">
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please upgrade your browser to improve your experience.</p>
+        <![endif]-->
+    
+        <div class="responsive-header visible-xs visible-sm">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="top-section">
+                            <div class="profile-image">
+                                <img src="img/profile.jpg" alt="Hongyu Liu">
+                            </div>
+                            <div class="profile-content">
+                                <h3 class="profile-title">Hongyu Liu</h3>
+                                <p class="profile-description">The University of Texas at San Antonio</p>
+                                <p class="profile-description">liuhycs AT gmail.com</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="toggle-menu"><i class="fa fa-bars"></i></a>
+                <div class="main-navigation responsive-menu">
+                    <ul class="navigation">
+                        <li><a href="#top"><i class="fa fa-home"></i>Home</a></li>
+                        <li><a href="#about"><i class="fa fa-user"></i>About Me</a></li>
+                        <li><a href="#research"><i class="fa fa-newspaper-o"></i>Research</a></li>
+                        <li><a href="#publications"><i class="fa fa-book"></i>Publications</a></li>
+                        <li><a href="#services"><i class="fa fa-cogs"></i>Services</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- SIDEBAR -->
+        <div class="sidebar-menu hidden-xs hidden-sm">
+            <div class="top-section">
+                <div class="profile-image">
+                    <img src="img/profile.jpg" alt="Hongyu Liu">
+                </div>
+                <h3 class="profile-title">Hongyu Liu</h3>
+                <p class="profile-description">The University of Texas at San Antonio</p>
+                <p class="profile-description">liuhycs AT gmail.com</p>
+            </div> <!-- top-section -->
+            <div class="main-navigation">
+                <ul class="navigation">
+                    <li><a href="#top"><i class="fa fa-home"></i>Home</a></li>
+                    <li><a href="#about"><i class="fa fa-user"></i>About Me</a></li>
+                    <li><a href="#research"><i class="fa fa-newspaper-o"></i>Research</a></li>
+                    <li><a href="#publications"><i class="fa fa-book"></i>Publications</a></li>
+                    <li><a href="#services"><i class="fa fa-cogs"></i>Services</a></li>
+                </ul>
+            </div> <!-- .main-navigation -->
+            <div class="social-icons">
+                <ul>
+                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                    <li><a href="#"><i class="fa fa-rss"></i></a></li>
+                </ul>
+            </div> <!-- .social-icons -->
+        </div> <!-- .sidebar-menu -->
+
+        <div class="banner-bg" id="top">
+          <!--<div class="banner-overlay"></div>-->
+            <div class="welcome-text">
+                <h2>GO RoadRunners GO!</h2>
+                <!--<h5>Welcome to my website</h5>-->
+            </div>
+        </div>
+
+        <!-- MAIN CONTENT -->
+        <div class="main-content">
+            <div class="fluid-container">
+
+                <div class="content-wrapper">
+                
+                    <!-- ABOUT -->
+                    <div class="page-section" id="about">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h4 class="widget-title">About Me</h4>
+                            <p> I am a PhD student in the Department of Computer Science at The University of Texas at San Antonio. I an working with Dr. <a rel="nofollow" href="http://www.cs.utsa.edu/~tongpingliu/" target="_blank">Tongping Liu</a>. My research interests include, but not limited to, system performance, system reliability and security. </p>
+                            <hr>
+                        </div>
+                    </div> <!-- #about -->
+                    </div>
+                    
+                    <!-- Research -->
+                    <div class="page-section" id="research">
+                    <h4 class="widget-title">Research</h4>
+                    <div class="row">
+                      <div class="col-md-12">
+                      <div class="project-item">
+                        <b>Record and Replay</b>
+                        <p>
+                        Reproducing errors of multithreaded programs is very challenging due to many intrinsic and external non-deterministic factors. Existing RnR systems achieve significant progress in terms of performance overhead, but none target the in-situ setting, in which replay occurs within the same process as the recording process. Also, most cannot achieve identical replay, which may prevent the reproduction of some errors.
+                        </p>
+                        <p>
+                        This paper presents iReplayer, which aims to identically replay multithreaded programs in the original process, under the "in-situ" setting. The novel in-situ and identical replay of iReplayer makes it more likely to reproduce errors, and allows it to directly employ debugging mechanisms (e.g. watchpoints) to aid failure diagnosis. iReplayer implements multiple methods to reduce its performance and support identical replay. Currently, iReplayer only incurs around 3% performance overhead, which allows it to be always enabled in the production environment. iReplayer enables a range of possibilities, and this paper presents three examples: two automatic tools for detecting buffer overflows and use-after-free bugs, and one interactive debugging tool that is integrated with GDB.
+                        </p>
+                      </div>
+                      </div>
+                    </div>
+                    </div> <!-- .research-holder -->
+                    <hr>
+
+                    <!-- publications -->
+                    <div class="page-section" id="publications">
+                    <h4 class="widget-title">Publications</h4>
+                    <div class="row">
+                      <div class="col-md-12">
+                        <dl class="dl-horizontal">
+                          <!--
+                          <dt>PLDI 2018</dt>
+                          <dd><b>Hongyu Liu</b>, Sam Silvestro, Wei Wang, Chen Tian, and Tongping Liu. 2018. iReplayer: In-situ and Identical Record-and-Replay for Multithreaded Applications (PLDI'18). ACM, Philadelphia, PA, USA. <a href="#"><i class="fa fa-file-pdf-o"></i></a>
+                          </dd> -->
+                          <dt>CCS  2017</dt>
+                          <dd>Sam Silvestro, <b>Hongyu Liu</b>, Corey Crosser, Zhiqiang Lin, and Tongping Liu. 2017. FreeGuard: A Faster Secure Heap Allocator. In Proceedings of the 2017 ACM SIGSAC Conference on Computer and Communications Security (CCS'17). ACM, New York, NY, USA, 2389-2403. <a href="#"><i class="fa fa-file-pdf-o"></i></a>
+                          </dd>
+                          <dt>ASE  2017</dt>
+                          <dd>Jinpeng Zhou, Sam Silvestro, <b>Hongyu Liu</b>, Yan Cai, and Tongping Liu. 2017. UNDEAD: detecting and preventing deadlocks in production software. In Proceedings of the 32nd IEEE/ACM International Conference on Automated Software Engineering (ASE 2017). IEEE Press, Piscataway, NJ, USA, 729-740. <a href="#"><i class="fa fa-file-pdf-o"></i></a>
+                          </dd>
+                        </dl>
+                      </div>
+                    </div>
+                    </div> <!-- .publications-holder -->
+                    <hr>
+
+                    <!-- Service -->
+                    <div class="page-section" id="services">
+                    <h4 class="widget-title">Services</h4>
+                    <div class="row">
+                      <div class="col-md-12">
+                      <div class="project-item">
+                        <ul>
+                          <li><b>Student Volunteer</b>: RTSS 2015, ICSE 2016</li>
+                          <li><b>Sub-Reviewer</b>: ICPADS 2016</li>
+                        </ul>
+                      </div>
+                      </div>
+                    </div>
+                    </div> <!-- .contact-form -->
+                    <hr>
+
+                    <div class="row" id="footer">
+                        <div class="col-md-12 text-center">
+                          <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=a&t=m&d=ubcKPhBPgXUfkNsB2U63LQjLkn3-FjAMmvrqlRrU9WU&co=2d78ad&cmo=3acc3a&cmn=ff5353&ct=ffffff'></script>
+                          <p>The template of this website is designed by <a href="http://www.templatemo.com/live/templatemo_441_volton">templatemo</a>.</p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+        <script src="js/vendor/jquery-1.10.2.min.js"></script>
+        <script src="js/min/plugins.min.js"></script>
+        <script src="js/min/main.min.js"></script>
+
+    </body>
+</html>
