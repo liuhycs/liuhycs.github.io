@@ -111,11 +111,11 @@
                       <div class="col-md-12">
                       <div class="project-item">
                         <b>Record and Replay</b>
-                        <p>
+                        <!--<p>
                         Reproducing errors of multithreaded programs is very challenging due to many intrinsic and external non-deterministic factors. Existing RnR systems achieve significant progress in terms of performance overhead, but none target the in-situ setting, in which replay occurs within the same process as the recording process. Also, most cannot achieve identical replay, which may prevent the reproduction of some errors.
-                        </p>
+                        </p>-->
                         <p>
-                        This paper presents iReplayer, which aims to identically replay multithreaded programs in the original process, under the "in-situ" setting. The novel in-situ and identical replay of iReplayer makes it more likely to reproduce errors, and allows it to directly employ debugging mechanisms (e.g. watchpoints) to aid failure diagnosis. iReplayer implements multiple methods to reduce its performance and support identical replay. Currently, iReplayer only incurs around 3% performance overhead, which allows it to be always enabled in the production environment. iReplayer enables a range of possibilities, and this paper presents three examples: two automatic tools for detecting buffer overflows and use-after-free bugs, and one interactive debugging tool that is integrated with GDB.
+                        iReplayer aims to identically replay multithreaded programs in the original process, under the "in-situ" setting. The novel in-situ and identical replay of iReplayer makes it more likely to reproduce errors, and allows it to directly employ debugging mechanisms (e.g. watchpoints) to aid failure diagnosis. iReplayer implements multiple methods to reduce its performance and support identical replay. Currently, iReplayer only incurs around 3% performance overhead, which allows it to be always enabled in the production environment. iReplayer enables a range of possibilities, and this paper presents three examples: two automatic tools for detecting buffer overflows and use-after-free bugs, and one interactive debugging tool that is integrated with GDB.
                         </p>
                       </div>
                       </div>
@@ -129,6 +129,12 @@
                     <div class="row">
                       <div class="col-md-12">
                         <dl class="dl-horizontal">
+                          <dt>USENIX-SEC 2018</dt>
+                          <dd>
+                            Guarder: An Efficient Heap Allocator with Strongest and Tunable Security. <a href="#"><i class="fa fa-file-pdf-o"></i></a></br>
+                            Sam Silvestro, <b>Hongyu Liu</b>, Tianyi Liu, Zhiqiang Lin, and Tongping Liu. </br>
+                            In Proceedings of 27th {USENIX} Security Symposium ({USENIX} Security 18. USENIX Association, Baltimore, MD, USA.
+                          </dd>
                           <dt>PLDI 2018</dt>
                           <dd>
                             iReplayer: In-situ and Identical Record-and-Replay for Multithreaded Applications. <a href="#"><i class="fa fa-file-pdf-o"></i></a></br>
